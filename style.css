@@ -86,6 +86,22 @@ h3 {
 
 .food-description {
   display: inline-block;
+  height: 109px;
+}
+.ingredients {
+  height: 70px;
+  overflow: scroll;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.toppings-extra .food-description {
+  text-align: right;
+}
+.toppings-extra .food-description h3 {
+  text-align: right;
+}
+h3.pizza-size{
+  text-align: left;
 }
 
 .menu-panel {
@@ -124,10 +140,14 @@ h3 {
   background-color: orange;
 }
 
+.tab-pane {
+  padding: 15px;
+}
 .tab-pane .col-md-6 img{
-  padding: 0;
+  padding: 0px;
   margin: 0;
   margin-top: 10px;
+  height: 109px;
 }
 
 .lower-cols {
