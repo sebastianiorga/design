@@ -10,105 +10,294 @@
 </head>
 <body>
   <header>
-    <h1 class='page-header'>
-      <span class="red">Denissa's</span>
-      <span class="white">Place</span>
-      <span class="red">Pizzeria</span>
-      <br/>
-      <small class='white'>Subtitlu, slogan etc</small>
-      <div class="links">
-        <a href="#contact">Contact Us</a>
-      </div>
-    </h1>
+    <img src="logo.svg">
+    <ul>
+      <li>
+        <a href="#location">Location</a>
+      </li>
+      <li>
+        <a href="#menu">Menu</a>
+      </li>
+      <li>
+        <a href="#hours">Business hours</a>
+      </li>
+    </ul>
+    <img class="main" src='restaurant.png'></img>
   </header>
-  <div class="container">
-    <div class="call-to-arms">
-      O descriere scurta a restaurantului. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor ,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    </div>
+      <a name='menu'></a>
 
-    <h3>Menu</h3>
-
-    <div role="tabpanel">
+  <div class='menu-panel' role="tabpanel">
 
       <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active">
+      <ul class="nav nav-tabs row" role="tablist">
+        <li id='pizza-tab' class='col-md-3' role="presentation" class="active">
           <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
             <h2>Pizzas</h2>
           </a>
         </li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Combos</a></li>
-        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Subs</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Sandwiches</a></li>
+        <li id='pasta-tab' class='col-md-3' role="presentation">
+          <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+            <h2>Pasta</h2>
+          </a>
+        </li>
+        <li id='sub-tab' class='col-md-3' role="presentation">
+          <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+            <h2>Subs</h2>
+          </a>
+        </li>
+        <li id='others-tab' class='col-md-3' role="presentation">
+          <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+            <h2>Others</h2>
+          </a>
+        </li>
       </ul>
 
       <!-- Tab panes -->
-      <div class="tab-content">
+      <div class="tab-content row">
         <div role="tabpanel" class="tab-pane active" id="home">
           <div class="col-md-6">
+            <h3 class='pizza-size'>Pizza sizes</h3>
+            <h5>M&nbsp; 12" (8 or 10 pieces pie shape)</h5>
+            <h5>XL 15" (12 pieces pie shape or 20 pieces square shape)</h5>
+          </div>
+          <div class="col-md-6 toppings-extra">
+
+            <div class="food-description col-md-9 col-md-offset-3">
+              <h3>Additional toppings(each pizza)</h3>
+              <h3> M - $ 2.49 XL - $ 3.49</h3>
+            </div>
+          </div>
+
+          <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Margherita </h4>
+                <p class="ingredients col-md-8">pizza sauce, italian mozza cheese</p>
+              <p class='prices col-md-4'>M - $ 15.99<br /> XL - $ 20.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Pepperoni </h4>
+                <p class="ingredients col-md-8">pizza sauce, pepperoni sausage, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br />XL -$ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Salami </h4>
+                <p class="ingredients col-md-8">pizza sauce, salami-cured sausage, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Ham/Prosciutto </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Italian Sausage </h4>
+                <p class="ingredients col-md-8">pizza sauce, italian sausage, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Back Bacon </h4>
+                <p class="ingredients col-md-8">pizza sauce, bacon, back bacon, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Tuna & Onion </h4>
+                <p class="ingredients col-md-8">pizza sauce, tuna, onion, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
             </div>
           </div>
           <div class="col-md-6">
             <img class='list-food-img col-md-3' src="pizza.jpeg">
             <div class="food-description col-md-9">
-              <h4>Margherita</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Fries & Wurstel </h4>
+                <p class="ingredients col-md-8">pizza sauce, french fries, wurstel/hot dog, Italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Hawaiian </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, pineapple, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 16.99<br /> XL - $ 21.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Diavola/The Devil </h4>
+                <p class="ingredients col-md-8">pizza sauce, hot pepperoni, red flake chili peppers, jalapeno/banana peppers, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 17.99<br /> XL - $ 22.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Quattro Formaggi/4 Cheese </h4>
+                <p class="ingredients col-md-8">pizza sauce, feta cheese, parmesan cheese, cheddar cheese, brie, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 17.99<br /> XL - $ 22.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>The Vegetarian </h4>
+                <p class="ingredients col-md-8">pizza sauce, mushrooms, onion, tomatoes, color peppers, pineapple, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Rustic Garden </h4>
+                <p class="ingredients col-md-8">pizza sauce, garlic, mushroom, zucchini, color peppers, oregano, parmesan cheese, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Capricciosa </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, mushrooms, artichokes, tomatoes, black olives, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Ham/Prosciutto </h4>
+              <p class="ingredients col-md-8"> color peppers, onion, pizza sauce, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Ham/Prosciutto</h4>
+                <p class="ingredients col-md-8"> color peppers, mushrooms, pizza sauce, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Pepperoni sausage</h4>
+                <p class="ingredients col-md-8"> color peppers, mushrooms, pizza sauce, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Salami cured sausage</h4>
+                <p class="ingredients col-md-8"> color peppers, mushrooms, pizza sauce, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Ham/Prosciutto</h4>
+                <p class="ingredients col-md-8"> pepperoni sausage, color peppers, mushrooms, onion, pizza sauce, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 18.99<br /> XL - $ 23.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Canadian Special </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, bacon, back bacon, mushrooms, canadian cheddar cheese, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Roast Beef </h4>
+                <p class="ingredients col-md-8">pizza sauce, sliced roast beef, onion, jalapeno/banana peppers, canadian cheddar cheese, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Meat Lovers </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, pepperoni sausage, salami-cured sausage, bacon, back bacon, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>All Dressed Imperial </h4>
+                <p class="ingredients col-md-8">pizza sauce, ham/prosciutto, salami-cured sausage, italian sausage, color peppers, mushrooms, onion, pineapple, shrimp, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Denissa's Place Special </h4>
+                <p class="ingredients col-md-8">pizza sauce, doner kebab, onion, jalapeno/banana peppers, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Bacon Burger </h4>
+                <p class="ingredients col-md-8">pizza sauce, bacon, beef burger, onion, , canadian cheddar cheese, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>All Chicken </h4>
+                <p class="ingredients col-md-8">pizza sauce, sliced grilled chicken breast, color peppers, mushrooms, onion, tomatoes, pineapple, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Chicken Ranch </h4>
+                <p class="ingredients col-md-8">ranch sauce, sliced grilled chicken breast, bacon, back bacon, color peppers, mushrooms, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Chicken Teriyaki </h4>
+                <p class="ingredients col-md-8">teriyaki sauce, sliced grilled chicken breast, pineapple, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="pizza.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Chicken Honey Garlic </h4>
+                <p class="ingredients col-md-8">honey garlic sauce, sliced grilled chicken breast, pineapple, italian mozza cheese</p>
+                <p class='prices col-md-4'>M - $ 19.99<br /> XL - $ 24.99</p>
             </div>
           </div>
         </div>
@@ -184,60 +373,13 @@
 
     </div>
 
-    <div class="col-md-4 lower-cols">
-      <h3>
-      Recommendations
-      <div class="crop-img">
-        <img src="pizza2.jpeg">
-      </div>
-      </h3>
-      <div class='row'>
-        <img class='list-food-img col-md-3' src="pizza2.jpeg">
-        <div class="food-description col-md-9">
-          <h4>Combo</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor ,</p>
-        </div>
-      </div>
-      <div class='row'>
-        <img class='list-food-img col-md-3' src="pizza2.jpeg">
-        <div class="food-description col-md-9">
-          <h4>Combo</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor ,</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 lower-cols">
-      <h3>
-      Specials
-      <div class="crop-img">
-        <img src="pizza2.jpeg">
-      </div>
-      </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor ,
-      quis no.</p>
-    </div>
-    <div class="col-md-4 lower-cols">
-      <h3>
-      Reserve a table
-      <div class="crop-img">
-        <img src="pizza2.jpeg">
-      </div>
-      </h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor ,
-      quis no.</p>
-    </div>
-
-  </div>
 
   <footer class='row'>
     <div class='col-md-4'>
+      <a name='location'></a>
       <h2>Location</h2>
       <div class="google-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19562.353109398933!2d-105.12118004999998!3d52.201702049999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53031b805bb90db7%3A0x3130d6a1fa2350b9!2sHumboldt%2C+SK+S0K%2C+Canada!5e0!3m2!1sen!2suk!4v1417983929002" width="400" height="300" frameborder="0" style="border:0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19562.353109398933!2d-105.12118004999998!3d52.201702049999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53031b805bb90db7%3A0x3130d6a1fa2350b9!2sHumboldt%2C+SK+S0K%2C+Canada!5e0!3m2!1sen!2suk!4v1417983929002" width="100%" height="300" frameborder="0" style="border:0"></iframe>
       </div>
     </div>
     <div class='contact col-md-4'>
@@ -264,10 +406,27 @@
       </div>
 
     </div>
+    <div class="col-md-3">
+      <a name='hours'></a>
+      <h2>Business hours</h2>
+      <p><span class="days">Sunday</span><span class="hours pull-right">Closed</span></p>
+      <p><span class="days">Monday</span><span class="hours pull-right">10:00 -23:00</span></p>
+      <p><span class="days">Tuesday</span><span class="hours pull-right">10:00 -23:00</span></p>
+      <p><span class="days">Wednesday</span><span class="hours pull-right">11:00 -23:00</span></p>
+      <p><span class="days">Thursday</span><span class="hours pull-right">10:00 -23:00</span></p>
+      <p><span class="days">Friday</span><span class="hours pull-right">10:00 -23:00</span></p>
+      <p><span class="days">Saturday</span><span class="hours pull-right">12:00 -23:00</span></p>
+    </div>
   </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <!-- DataTables CSS -->
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+
+  <!-- DataTables -->
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.js"></script>
+
 </body>
 </html>
