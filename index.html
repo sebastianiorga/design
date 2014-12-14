@@ -30,23 +30,33 @@
 
       <!-- Nav tabs -->
       <ul class="nav nav-tabs row" role="tablist">
-        <li id='pizza-tab' class='col-md-3' role="presentation" class="active">
-          <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+        <li id='pizza-tab' class='col-md-2' role="presentation" class="active">
+          <a href="#pizza" aria-controls="pizza" role="tab" data-toggle="tab">
             <h2>Pizzas</h2>
           </a>
         </li>
-        <li id='pasta-tab' class='col-md-3' role="presentation">
-          <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+        <li id='pasta-tab' class='col-md-2' role="presentation">
+          <a href="#pasta" aria-controls="pasta" role="tab" data-toggle="tab">
             <h2>Pasta</h2>
           </a>
         </li>
-        <li id='sub-tab' class='col-md-3' role="presentation">
-          <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-            <h2>Subs</h2>
+        <li id='combo-tab' class='col-md-2' role="presentation">
+          <a href="#combos" aria-controls="combos" role="tab" data-toggle="tab">
+            <h2>Combos</h2>
           </a>
         </li>
-        <li id='others-tab' class='col-md-3' role="presentation">
-          <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+        <li id='burger-tab' class='col-md-2' role="presentation">
+          <a href="#burgers" aria-controls="burgers" role="tab" data-toggle="tab">
+            <h2>Handhelds</h2>
+          </a>
+        </li>
+        <li id='kids-tab' class='col-md-2' role="presentation">
+          <a href="#kids" aria-controls="kids" role="tab" data-toggle="tab">
+            <h2>Kids</h2>
+          </a>
+        </li>
+        <li id='others-tab' class='col-md-2' role="presentation">
+          <a href="#others" aria-controls="others" role="tab" data-toggle="tab">
             <h2>Others</h2>
           </a>
         </li>
@@ -54,7 +64,7 @@
 
       <!-- Tab panes -->
       <div class="tab-content row">
-        <div role="tabpanel" class="tab-pane active" id="home">
+        <div role="tabpanel" class="tab-pane active" id="pizza">
           <div class="col-md-6">
             <h3 class='pizza-size'>Pizza sizes</h3>
             <h5>M&nbsp; 12" (8 or 10 pieces pie shape)</h5>
@@ -301,74 +311,247 @@
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="profile">
+
+
+
+        <div role="tabpanel" class="tab-pane no-columns" id="pasta">
           <div class="col-md-6">
-            <img class='list-food-img col-md-3' src="pizza2.jpeg">
-            <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+            <h3 class='pizza-size'>Pasta sizes</h3>
+            <h5>S for 1/2 people served with one garlic toast</h5>
+            <h5>M for 2/4 people served with two garlic toasts</h5>
+            <h5>L for 4/6 people served with four garlic toasts</h5>
+          </div>
+          <div class="col-md-6 toppings-extra">
+
+            <div class="food-description col-md-9 col-md-offset-3">
+              <h3>Optional topping chicken or shrimp:</h3>
+              <h3>  S - $ 2.00     M - $ 3.00     L - $ 4.00</h3>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <img class='list-food-img col-md-3' src="pizza2.jpeg">
             <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Lasagna with Meat/Tomatoes Sauce  </h4>
+              <p class="ingredients col-md-8">italian fresh lasagna noodle served with meat or tomatoes sauce, baked in the oven with italian mozza cheese</p>
+              <p class='prices col-md-4'>S - $ 10.99<br/>M - $ 15.99<br/>L - $ 24.99</p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <img class='list-food-img col-md-3' src="pizza2.jpeg">
             <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Spasagna with Meat/Tomatoes Sauce </h4>
+              <p class="ingredients col-md-8">italian spaghetti noodle served with meat or tomatoes sauce, baked in the oven with italian mozza cheese</p>
+              <p class='prices col-md-4'>S - $ 10.99<br/>M - $ 15.99<br/>L - $ 24.99</p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <img class='list-food-img col-md-3' src="pizza2.jpeg">
             <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Lasagna a la Bolognese </h4>
+              <p class="ingredients col-md-8">italian fresh noodle served with meat sauce a la Bolognese, baked in the oven with italian mozza cheese</p>
+              <p class='prices col-md-4'>S - $ 12.99<br/>M - $ 17.99<br/>L - $ 26.99</p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <img class='list-food-img col-md-3' src="pizza2.jpeg">
             <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Spaghetti a la Bolognese  </h4>
+              <p class="ingredients col-md-8">italian spaghetti noodle served with meat sauce a la Bolognese, topped with parmesan cheese</p>
+              <p class='prices col-md-4'>S - $ 11.99<br/>M - $ 16.99<br/>L - $ 25.99</p>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-12">
             <img class='list-food-img col-md-3' src="pizza2.jpeg">
             <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img class='list-food-img col-md-3' src="pizza2.jpeg">
-            <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img class='list-food-img col-md-3' src="pizza2.jpeg">
-            <div class="food-description col-md-9">
-              <h4>Combo</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor ,</p>
+              <h4>Fettuccine Alfredo  </h4>
+              <p class="ingredients col-md-8">italian fresh fettuccine noodle served with a creamy Alfredo sauce and topped with parmesan cheese</p>
+              <p class='prices col-md-4'>S - $ 12.99<br/>M - $ 17.99<br/>L - $ 26.99</p>
             </div>
           </div>
         </div>
-        <div role="tabpanel" class="tab-pane" id="messages">...</div>
-        <div role="tabpanel" class="tab-pane" id="settings">...</div>
+        <div role="tabpanel" class="tab-pane no-columns" id="combos">
+          <div class="col-md-12">
+            <img class='list-food-img col-md-3' src="combo.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Combo # 1 (Dry ribs & Chicken Finger dinner) - for 1/2 people - $ 18.99</h4>
+              <p class="ingredients col-md-8">
+                1 lb Boneless Dry Ribs<br/>
+                3 pc Chicken Fingers<br/>
+                French Fries<br/>
+                2 pc of Dipping Sauce
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <img class='list-food-img col-md-3' src="combo.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Combo # 2 (Lasagna/Spasagna Combo) - for 2/3 people - $ 20.99</h4>
+              <p class="ingredients col-md-8">
+                1 Medium size Lasagna/Spasagna with Meat/Tomatoes Sauce<br/>
+                1 Medium size Caesar/Garden Salad<br/>
+                4 pc of Garlic Toast
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <img class='list-food-img col-md-3' src="combo.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Combo # 3 (Family Combo) - for 4 people - $ 35.99</h4>
+              <p class="ingredients col-md-8">
+                M Pizza of your choice<br/>
+                1 Medium Lasagna/Spasagna with Meat/Tomatoes Sauce<br/>
+                1 lb Boneless Dry Ribs<br/>
+                4 pc of Garlic Toast
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <img class='list-food-img col-md-3' src="combo.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Combo # 4 (Blowout Combo) – for 4/6 people - $ 39.99</h4>
+              <p class="ingredients col-md-8">
+                1 Tray with Doner Kebab<br/>
+                1 lb Boneless Dry Ribs<br/>
+                6 pc of Chicken Finger<br/>
+                6 pc of Chicken Wings<br/>
+                6 pc of Chicken Nuggets<br/>
+                Pop-corn Chicken<br/>
+                French Fries<br/>
+                Onion Rings<br/>
+                Variety of Dipping Sauces
+              </p>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="burgers">
+          <h4>BURGERS (all burgers are 100% pure beef in a fresh bun, our special sauce and served with french fries) - $ 11.99</h4>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="burger.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Denissa's Burger </h4>
+              <p class="ingredients col-md-8">beef burger, doner kebab, grilled jalapeno, onion, melted cheddar cheese, lettuce, tomatoes, pickles</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="burger.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Bacon Cheese Burger </h4>
+              <p class="ingredients col-md-8">beef burger, bacon, melted canadian cheddar cheese, lettuce, tomatoes</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="burger.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Mushroom Burger </h4>
+              <p class="ingredients col-md-8">beef burger, bacon, grilled mushrooms, onion, melted canadian cheddar cheese, lettuce, tomatoes</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="burger.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Hawaiian Burger </h4>
+              <p class="ingredients col-md-8">beef burger, caramelized pineapple, onion, melted canadian cheddar cheese, lettuce, tomatoes</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="burger.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Chicken Burger </h4>
+              <p class="ingredients col-md-8">grilled chicken fillet, bacon, onion, melted italian mozza cheese, lettuce, tomatoes</p>
+            </div>
+          </div>
+          <div class='col-md-12'>&nbsp;</div>
+
+          <h4 class='col-md-12'>SUBS (all subs are served with french fries) - $ 12.49</h4>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="sub.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Denissa's Sub </h4>
+              <p class="ingredients col-md-8">doner kebab, la bomba/the bomb sauce, tomatoes, cabbage salad, tzatziki sauce</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="sub.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Smokies Sausage Sub </h4>
+              <p class="ingredients col-md-8">grilled smokies sausage, canadian cheddar cheese, lettuce</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="sub.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Chicken Sub </h4>
+              <p class="ingredients col-md-8">grilled chichen fillet, hot mayo, melted italian mozza cheese, fresh cucumber, lettuce</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="sub.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Roast Beef Baked Sub </h4>
+              <p class="ingredients col-md-8">sliced roast beef, garlic butter, onion, melted italian mozza cheese</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="sub.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Meat Lovers Baked Sub </h4>
+              <p class="ingredients col-md-8">ham/prosciutto, pepperoni, salami, pizza sauce, italian mozza cheese</p>
+            </div>
+          </div>
+
+          <h4 class='col-md-12'>SANDWICHES (served between two slices of fresh bread) - $ 7.99</h4>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="kids.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Denissa's Signature </h4>
+              <p class="ingredients col-md-8">ham/prosciutto, mortadella, genoa salami, provolone cheese, signature sauce</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class='list-food-img col-md-3' src="kids.jpeg">
+            <div class="food-description col-md-9">
+              <h4>Roast Beef </h4>
+              <p class="ingredients col-md-8">sliced roast beef, provolone cheese, signature sauce</p>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane no-columns" id="kids">
+          <h4>KIDS MENU - $ 7.99</h4>
+          <h4>
+            <ol>
+              <li>Chicken Nuggets & French Fries</li>
+              <li>Pop-corn Chicken & French Fries</li>
+              <li>Grilled Cheese Toast & French Fries</li>
+              <li>Cheeseburger & French Fries</li>
+              <li>Spaghetti with Meat/Tomatoes Sauce</li>
+            </ol>
+          </h4>
+
+
+
+
+
+
+        </div>
+        <div role="tabpanel" class="tab-pane no-columns" id="others">
+          <h4>Side orders</h4>
+          <h4>
+            <ol>
+              <li>Gravy - $ 0.99</li>
+              <li>Garlic Toast - $ 0.99</li>
+              <li>Cheese Toast - $ 3.49</li>
+              <li>French Fries medium - $ 3.49</li>
+              <li>French Fries large - $ 6.49</li>
+              <li>Onion Rings medium - $ 6.49</li>
+              <li>Garlic Bread Twist medium - $ 7.99</li>
+              <li>Poutine medium - $ 6.49</li>
+              <li>Poutine large - $ 8.49</li>
+              <li>Boneless Dry Ribs one lb  - $ 13.99</li>
+              <li>Chicken wings one lb - $ 13.99 (sweet and spice bbq sauce, honey garlic, buffalo, mediterranean, lemon pepper, seasoning salt, ...)</li>
+            </ol>
+          </h4>
+        </div>
       </div>
 
     </div>
@@ -423,10 +606,10 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   <!-- DataTables CSS -->
-  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
 
   <!-- DataTables -->
-  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.4/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.js"></script>
 
 </body>
 </html>

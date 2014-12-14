@@ -127,14 +127,34 @@ h3.pizza-size{
   margin: 0;
   border-radius: 0;
 }
+.no-columns .col-md-12 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.no-columns .food-description {
+  height: 100%;
+}
+ol li {
+  margin-bottom: 10px;
+}
+.no-columns .food-description .ingredients {
+  height: 100%;
+}
 #pizza-tab {
   background-color: tan;
 }
 #pasta-tab {
   background-color: red;
 }
-#sub-tab {
+#burger-tab {
   background-color: blue;
+}
+#combo-tab {
+  background-color: cyan;
+}
+#kids-tab {
+  background-color: lightpink;
 }
 #others-tab {
   background-color: orange;
